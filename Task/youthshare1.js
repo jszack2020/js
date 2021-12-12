@@ -3,7 +3,17 @@ const $ = new Env('youthshare');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
-let articles = ["https://focus.youth.cn/article/ws_five?signature=Zry0KPXd5RYDQVznvq4vzQ2jKCP9AnG4GlE6go9mAJkeON2wjW&scene_id=placed_top&share_id=60206565408778171637375339134&time=1637375340426"]
+let articles = ["https://focus.youth.cn/article/ws_five?signature=G6vDYbegoP2Owr90x84KkArRqfrVyzz4jVBXQnmqNLEMRyzZ3l&scene_id=placed_top&share_id=51333265412117141639274576453&time=1639274577920", 
+"https://focus.youth.cn/article/ws_five?signature=vg9Vr5WAX3dJejlq6GaJBQ3E8sgZAxxawoYk2PpNxbRZEDzmnL&scene_id=placed_top&share_id=51333265412123291639274609285&time=1639274610467", 
+"https://focus.youth.cn/article/ws_five?signature=nG63ezAQDowMB0vlYg4k0VAg9hvGEee7L8KN5yR9XpjPOxrbdE&scene_id=placed_top&share_id=51333265412123381639274616986&time=1639274618567", 
+"https://focus.youth.cn/article/ws_five?signature=PDAM2LbdQB6J8ljGNZazZKXeYuQRrGGaKX0mkV39oyW5xrzpYe&scene_id=home_feed&share_id=51333265411972011639274627230&time=1639274628266", 
+"https://focus.youth.cn/article/ws_five?signature=PDAM2LbdQB6J8ljGNZazZKXeYuQRrGGaKX0mkV39oyW5xrzpYe&scene_id=home_feed&share_id=51333265411972011639274627230&time=1639274628266", 
+"https://focus.youth.cn/article/ws_five?signature=PDAM2LbdQB6J8ljGNZazZKXeYuQRrGGaKX0mkV39oyW5xrzpYe&scene_id=home_feed&share_id=51333265411972011639274627230&time=1639274628266", 
+"https://focus.youth.cn/article/ws_five?signature=PDAM2LbdQB6J8ljGNZazZKXeYuQRrGGaKX0mkV39oyW5xrzpYe&scene_id=home_feed&share_id=51333265411972011639274627230&time=1639274628266", 
+"https://focus.youth.cn/article/ws_five?signature=PDAM2LbdQB6J8ljGNZazZKXeYuQRrGGaKX0mkV39oyW5xrzpYe&scene_id=home_feed&share_id=51333265411972011639274627230&time=1639274628266", 
+"https://focus.youth.cn/article/ws_five?signature=PDAM2LbdQB6J8ljGNZazZKXeYuQRrGGaKX0mkV39oyW5xrzpYe&scene_id=home_feed&share_id=51333265411972011639274627230&time=1639274628266", 
+"https://focus.youth.cn/article/ws_five?signature=PDAM2LbdQB6J8ljGNZazZKXeYuQRrGGaKX0mkV39oyW5xrzpYe&scene_id=home_feed&share_id=51333265411972011639274627230&time=1639274628266"
+]
 
 let encodearticles;
 
